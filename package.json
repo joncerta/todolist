@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "0.0.1",
+  "description": "This is a small project, it is to create a list of tasks and put a status on them.",
+  "main": "index.js",
+  "dependencies": {
+    "braintree-web-drop-in-react": "^1.2.1",
+    "concurrently": "^5.3.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd back && npm start\" \"cd client && npm start\"",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joncerta/todolist.git"
+  },
+  "author": "Jonathan Certain Tamayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joncerta/todolist/issues"
+  },
+  "homepage": "https://github.com/joncerta/todolist#readme"
+}

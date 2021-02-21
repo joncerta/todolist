@@ -1,0 +1,61 @@
+.btn,
+.jumbotron,
+.nav {
+  &:hover {
+    border-radius: 0px;
+  }
+}
+
+/* cart badge*/
+
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+}
+
+.product-img {
+  min-height: 100px;
+}
+
+.profile-data {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  .name {
+    padding: 1%;
+    border-right: solid 1px gray;
+    border-bottom: solid 1px gray;
+  }
+  .email {
+    padding: 1%;
+    border-bottom: solid 1px gray;
+  }
+  .role {
+    padding: 1%;
+    border-right: solid 1px gray;
+  }
+}
+
+.content-tasks {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 1%;
+  row-gap: 1%;
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3px;
+  }
+}
