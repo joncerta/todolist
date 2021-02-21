@@ -35,7 +35,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Layout title='Home' description='Ecommerce' className="container-fluid">
+    <Layout title='Home' description='' className="container-fluid">
       <Search/>
       <h2 className='mb-4'>Productos nuevos</h2>
       <div className='row'>

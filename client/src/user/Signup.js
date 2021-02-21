@@ -126,7 +126,7 @@ const Signup = () => {
     </div>
   );
   return (
-    <Layout title='Signup' description='Signup Ecommerce' className='container'>
+    <Layout title='Signup' description='Signup ' className='container'>
       {showError()}
       {showSuccess()}
       {signupForm()}
